@@ -1,2 +1,0 @@
-# Dilip SIngh
-personal website
