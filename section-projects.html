@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Projects | Dilip Singh</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="light_theme">
+  <!-- Header -->
+  <header class="header" data-header>
+    <div class="container">
+      <div class="logo"><a href="index.html">Dilip<span>Singh</span></a></div>
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li><a class="navbar-link" href="index.html#home">Home</a></li>
+          <li><a class="navbar-link" href="index.html#about">About</a></li>
+          <li><a class="navbar-link" href="index.html#skills">Skills</a></li>
+          <li><a class="navbar-link" href="section-projects.html">Projects</a></li>
+          <li><a class="navbar-link" href="section-services.html">Services</a></li>
+          <li><a class="navbar-link" href="index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main style="padding-top:100px;">
+    <section class="project container" id="projects">
+      <h2 class="section-title">My Projects</h2>
+      <p class="section-text">A selection of my professional and academic projects, showcasing my skills in web development, design, and problem-solving.</p>
+      <div class="filter-btn-group">
+        <button class="filter-btn active" data-filter-btn data-filter="all">All</button>
+        <button class="filter-btn" data-filter-btn data-filter="web">Web</button>
+        <button class="filter-btn" data-filter-btn data-filter="app">App</button>
+        <button class="filter-btn" data-filter-btn data-filter="design">Design</button>
+      </div>
+      <ul class="project-list">
+        <li>
+          <div class="project-card web">
+            <img src="assets/images/project1.jpg" alt="Project 1" class="w-100">
+            <div class="card-content">
+              <h3 class="card-title">Portfolio Website</h3>
+              <span class="publish-date">2024</span>
+              <a href="#" class="btn btn-primary view-details">View Details</a>
+              <div class="project-details" style="display:none;">
+                <h4>Portfolio Website</h4>
+                <p>A responsive personal portfolio website built with HTML, CSS, and JavaScript. Features smooth scrolling, theme toggle, and dynamic sections.</p>
+                <a href="https://github.com/" target="_blank">View on GitHub</a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="project-card app">
+            <img src="assets/images/project2.jpg" alt="Project 2" class="w-100">
+            <div class="card-content">
+              <h3 class="card-title">Task Manager App</h3>
+              <span class="publish-date">2023</span>
+              <a href="#" class="btn btn-primary view-details">View Details</a>
+              <div class="project-details" style="display:none;">
+                <h4>Task Manager App</h4>
+                <p>A simple task manager built using React and Firebase. Allows users to add, edit, and delete tasks with real-time updates.</p>
+                <a href="https://github.com/" target="_blank">View on GitHub</a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="project-card design">
+            <img src="assets/images/project3.jpg" alt="Project 3" class="w-100">
+            <div class="card-content">
+              <h3 class="card-title">UI Design Kit</h3>
+              <span class="publish-date">2022</span>
+              <a href="#" class="btn btn-primary view-details">View Details</a>
+              <div class="project-details" style="display:none;">
+                <h4>UI Design Kit</h4>
+                <p>A modern UI kit designed in Figma, including buttons, forms, and navigation components for web and mobile apps.</p>
+                <a href="https://github.com/" target="_blank">View on GitHub</a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <!-- Add more project cards as needed -->
+      </ul>
+    </section>
+    <!-- Modal for project details -->
+    <div class="modal">
+      <div class="modal-content"></div>
+      <button class="modal-close">&times;</button>
+    </div>
+  </main>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
